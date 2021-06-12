@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255, 0.7);
+  padding: 20px 50px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 70px;
+}
+
+nav ul li {
+  font-size: 20px;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#top {
+  height: 600px;
+  background: url("https://i.imgur.com/ajm8goP.jpeg") no-repeat center;
+  background-size: cover;
+}
+
+.top-wrap h1 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 20px 50px;
+  margin: 50px;
+  position: absolute;
+  top: 450px;
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section-title {
+  font-size: 40px;
+  font-family: "Londrina Shadow", cursive;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #333;
+}
+
+.service-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-left img {
+  width: 80%;
+  height: auto;
+}
+
+.service-right h3 {
+  color: #333;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.service-right p {
+  font-size: 15px;
+  color: #555;
+}
+
+#menu {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.menu-title {
+  font-size: 40px;
+  font-family: "Londrina Shadow", cursive;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #333;
+}
+
+.menu-image p {
+  font-size: 20px;
+  font-family: "Montserrat Subrayada", sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.news-wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.news-wrap p {
+  line-height: 2.5;
+}
+
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.price-wrap table {
+  border: double #333 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.price-wrap table tr {
+  border: solid #333 2px;
+  padding: 10px;
+}
+
+.price-wrap table th {
+  border: solid #333 2px;
+  padding: 10px;
+}
+
+.price-wrap table td {
+  border: solid #333 2px;
+  padding: 10px;
+}
+
+.price-addition {
+  margin-top: 20px;
+}
+
+#contact {
+  background: rgb(241, 241, 241);
+}
+
+#contact h2 {
+  padding: 40px 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button-submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+#footer {
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
